@@ -3,11 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
     <title>Portfólio Dev Léo Serrão</title>
 </head>
 <style>
     body {
         margin: 0;
+        font-family: 'Fjalla One', sans-serif;
+    }
+
+    footer {
+        background-color: black;
+        padding: 30px;
+        color: white;
     }
 
     #topMenu {
@@ -37,6 +47,31 @@
         margin: auto;
         text-align: center;
     }
+
+    .section2 {
+        display: flex;
+        background-color: white;
+        width: 33vw;
+    }
+
+    .imagemProjeto {
+        width: 15vw;
+        height: 15vw;
+        padding-left: 15px;
+    }
+
+    .section3 {
+        display: flex;
+        background-color: #e5e6ea;
+        width: 33vw;
+    }
+
+    .section4 {
+        display: flex;
+        background-color: white;
+        width: 33vw;
+    }
+
 </style>
 <body>
     <nav>
@@ -54,6 +89,74 @@
             <button>Meus projetos</button>
         </div>
     </div>
+
+    <div id="projetos" class="section2 centralize">
+        <table>
+            <tr>
+                <td style="width:40%;">
+                    <img class="imagemProjeto" src="https://i0.wp.com/www.araquariev.com.br/wp-content/uploads/sites/445/2015/10/Logo-teste.jpg?fit=280%2C280&ssl=1" alt="Logo do projeto">
+                </td>
+                <td style="width:60%; text-align: left">
+                    <ul style="color:#008000;">
+                        Projeto 1
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
     
+    <div id="projetos" class="section3 centralize">
+        <table>
+            <tr>
+                
+                <td style="width:60%; text-align: left">
+                    <ul style="color:#008000;">
+                        Projeto 2
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+                <td style="width:40%;">
+                    <img class="imagemProjeto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZsFpdhCSTGUbdA7upoYyN-8x8DOTWol-qpQ&usqp=CAU" alt="Logo do projeto">
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="projetos" class="section4 centralize">
+        <table>
+            <tr>
+                <td style="width:40%;">
+                    <img class="imagemProjeto" src="https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2017%2F10%2F18%2F18%2FLogo-164750_473213_183910467_1287312692.jpg" alt="Logo do projeto">
+                </td>
+                <td style="width:60%; text-align: left">
+                    <ul style="color:#008000;">
+                        Projeto 3
+                        <hr>
+                        <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
+                        <li>Tecnologia 1</li>
+                        <li>Tecnologia 2</li>
+                        <li>Tecnologia 3</li>
+                        <li>Tecnologia 4</li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <h5 class="centralize">@Criado por Léo Serrão Barbosa</h5>
+    </footer>
+
 </body>
 </html>

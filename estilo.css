@@ -1,0 +1,75 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    color: white;
+}
+
+#topMenu {
+    display: flex;
+    background-color: #302f2f;
+    margin: 0;
+}
+
+#topMenu li {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+
+#tipMenu li:first-child {
+    margin-right: auto;
+}
+
+.section1 {
+    display: flex;
+    height: 33vh;
+    background-color: #93e9be;
+}
+
+.centralize {
+    margin: auto;
+    text-align: center;
+}
+
+.section2 {
+    display: flex;
+    background-color: white;
+    width: 33vw;
+}
+
+.imagemProjeto {
+    width: 15vw;
+    height: 15vw;
+    padding-left: 15px;
+}
+
+.section3 {
+    display: flex;
+    background-color: #e5e6ea;
+    width: 33vw;
+}
+
+.section4 {
+    display: flex;
+    background-color: white;
+    width: 33vw;
+}
+
+.botaoVermelho {
+    background-color: #c64e63;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

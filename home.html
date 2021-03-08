@@ -1,78 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="estilo.css" rel="stylesheet" type="text/css">
+    
     <title>Portfólio Dev Léo Serrão</title>
 </head>
-<style>
-    body {
-        margin: 0;
-        font-family: 'Fjalla One', sans-serif;
-    }
 
-    footer {
-        background-color: black;
-        padding: 30px;
-        color: white;
-    }
-
-    #topMenu {
-        display: flex;
-        background-color: #302f2f;
-        margin: 0;
-    }
-
-    #topMenu li {
-        color: white;
-        text-decoration: none;
-        display: block;
-        padding: 15px;
-    }
-
-    #tipMenu li:first-child {
-        margin-right: auto;
-    }
-
-    .section1 {
-        display: flex;
-        height: 33vh;
-        background-color: #93e9be;
-    }
-
-    .centralize {
-        margin: auto;
-        text-align: center;
-    }
-
-    .section2 {
-        display: flex;
-        background-color: white;
-        width: 33vw;
-    }
-
-    .imagemProjeto {
-        width: 15vw;
-        height: 15vw;
-        padding-left: 15px;
-    }
-
-    .section3 {
-        display: flex;
-        background-color: #e5e6ea;
-        width: 33vw;
-    }
-
-    .section4 {
-        display: flex;
-        background-color: white;
-        width: 33vw;
-    }
-
-</style>
 <body>
     <nav>
         <ul id="topMenu">
@@ -85,20 +20,20 @@
 
     <div class="section1">
         <div class="centralize">
-            <h1>Léo Serrão Barbosa</h1>
-            <button>Meus projetos</button>
+            <h1 style="color: white;">Léo Serrão Barbosa</h1>
+            <a href="#projetos"><button class="botaoVermelho">Meus projetos</button></a>
         </div>
     </div>
 
     <div id="projetos" class="section2 centralize">
-        <table>
+        <table class="centralize">
             <tr>
                 <td style="width:40%;">
                     <img class="imagemProjeto" src="https://i0.wp.com/www.araquariev.com.br/wp-content/uploads/sites/445/2015/10/Logo-teste.jpg?fit=280%2C280&ssl=1" alt="Logo do projeto">
                 </td>
                 <td style="width:60%; text-align: left">
                     <ul style="color:#008000;">
-                        Projeto 1
+                        <h3>Projeto 1</h3>
                         <hr>
                         <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
                         <li>Tecnologia 1</li>
@@ -112,12 +47,12 @@
     </div>
     
     <div id="projetos" class="section3 centralize">
-        <table>
+        <table class="centralize">
             <tr>
                 
                 <td style="width:60%; text-align: left">
                     <ul style="color:#008000;">
-                        Projeto 2
+                        <h3>Projeto 2</h3>
                         <hr>
                         <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
                         <li>Tecnologia 1</li>
@@ -134,14 +69,14 @@
     </div>
 
     <div id="projetos" class="section4 centralize">
-        <table>
+        <table class="centralize">
             <tr>
                 <td style="width:40%;">
                     <img class="imagemProjeto" src="https://s3-sa-east-1.amazonaws.com/projetos-artes/fullsize%2F2017%2F10%2F18%2F18%2FLogo-164750_473213_183910467_1287312692.jpg" alt="Logo do projeto">
                 </td>
                 <td style="width:60%; text-align: left">
                     <ul style="color:#008000;">
-                        Projeto 3
+                        <h3>Projeto 3</h3>
                         <hr>
                         <li>Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto Descrição do projeto</li>
                         <li>Tecnologia 1</li>
